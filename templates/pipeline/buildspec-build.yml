@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo $CODEBUILD_RESOLVED_SOURCE_VERSION > source_version
+      - make -C pipeline build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
