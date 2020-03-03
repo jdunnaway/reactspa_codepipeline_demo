@@ -11,6 +11,7 @@ What this repo assumes:
   * Your repo contains a `pipeline` folder and it contains the following files
     `buildspec-build.yml` which will be called to run the build. Ensure this buildspec copies to `build` or `dist` file to the root of the output artifact
   * `Makefile` or other scripts which will be called from within the buildspec-build.yml
+  * Examples of these files can be found in `templates/pipeline`
 * The account you are using to execute this terraform has the proper S3, CodePipeline, CodeBuild, and CodeDeploy permissions in your target account.
 
 Steps to build the deployment pipeline:
