@@ -20,4 +20,4 @@ Steps to build the deployment pipeline:
 * Execute `terraform plan -var-file="your-tfvars"`
 * Confirm the output of the plan
 * Execute `terraform apply -var-file="your-tfvars"`
-* Open a browser and navigate to https://{your-environment-name}-spa-codepipeline-demo.s3.us-east-1.amazonaws.com/index.html
+* Open a browser and navigate to `https://{your-environment-name}-spa-codepipeline-demo.s3.us-east-1.amazonaws.com/index.html`
